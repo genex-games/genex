@@ -2,6 +2,7 @@
   "name": "genex",
   "description": "Every game dev generation tool from the terminal: 3D models, characters, animations, textures, images, video, sound effects, music and voice. One sign-in, one balance, files you own.",
   "version": "1.34.3",
+  "license": "MIT",
   "author": {
     "name": "Genex",
     "url": "https://genex.games"
