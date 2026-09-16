@@ -1,0 +1,28 @@
+{
+  "name": "genex",
+  "owner": {
+    "name": "Genex",
+    "url": "https://genex.games"
+  },
+  "metadata": {
+    "description": "Genex: your personal AI game dev studio. 3D models, animations, textures, sound, music, multiplayer and publishing for the coding agent you already use.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "genex",
+      "source": "./",
+      "description": "Every game dev generation tool from the terminal: 3D models, characters, animations, textures, images, video, sound effects, music and voice. One sign-in, one balance, files you own.",
+      "version": "1.34.3",
+      "author": {
+        "name": "Genex",
+        "url": "https://genex.games"
+      },
+      "homepage": "https://genex.games/docs",
+      "repository": "https://github.com/genex-games/genex",
+      "license": "See LICENSE",
+      "keywords": ["game-dev", "three.js", "3d", "assets", "multiplayer", "publishing", "claude-code", "codex", "cursor"],
+      "category": "development"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="-1.2 -3.32073 21.6407 21.6407" role="img" aria-label="Genex">
+  <title>Genex</title>
+  <style>
+    .mark { fill: url(#genex-light); }
+    @media (prefers-color-scheme: dark) {
+      .mark { fill: url(#genex-dark); }
+    }
+  </style>
+  <defs>
+    <linearGradient id="genex-light" x1="0" y1="7.49729" x2="19.2407" y2="7.49729" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#2845C8" stop-opacity="0.83"/>
+    <stop offset="1" stop-color="#5E72CA"/>
+    </linearGradient>
+    <linearGradient id="genex-dark" x1="8.14413" y1="2.61419" x2="8.87972" y2="24.3056" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"/>
+    <stop offset="0.471154" stop-color="#B4B4B4"/>
+    <stop offset="1" stop-color="#E3E3E3" stop-opacity="0.84"/>
+    </linearGradient>
+  </defs>
+  <path class="mark" d="M14.8313 8.85849H6.76045V7.51031H19.2407V11.1697C19.2407 11.1697 18.2707 14.9788 9.80253 14.9788C9.80253 14.9788 0 15.257 0 7.10372C0 -0.450362 10.6042 0.0204315 10.6042 0.0204315C18.7669 0.0204315 19.2407 3.97937 19.2407 3.97937L17.1271 4.32176C17.1271 4.32176 16.4712 1.28301 10.4585 1.28301C10.4585 1.28301 2.40508 0.983416 2.40508 7.25352C2.40508 7.25352 2.22288 13.5022 9.91186 13.6734C15.961 13.866 16.8356 10.6561 16.9085 10.0997C17.1271 9.39349 16.1796 8.85849 14.8313 8.85849Z"/>
+</svg>
