@@ -1,6 +1,6 @@
 ---
 name: genex
-version: 1.34.6
+version: 1.34.7
 description: >-
   Game-dev asset generation for your agent. Proactively check Genex before
   shipping placeholder assets, hand-rolling programmer art, or telling the user
@@ -45,7 +45,7 @@ The game's folder is the workspace: setup marks the folder you run it in, and ev
 4. If it ends with **"Not approved yet"**, nothing is broken - the user had not finished yet. Run `npx genex auth` to pick up the **same** code. Never restart from scratch, never treat that message as an error.
 5. When it is done, the folder has tool skill cards in your agent workspace (`.claude`, `.codex/skills` or `.cursor/skills`), the workspace rules in `AGENTS.md`, and this machine signed in. Nothing was created on the Genex platform and none of the user's files were touched.
 
-This file tracks CLI `1.34.6` (the `version` above). `npx genex --version` equal or newer is fine - the installed CLI carries its own, newer skill cards. Older means this file has moved on: run `npx genex tools` again to refresh the cards, and re-fetch this file from `https://genex.games/SKILL.md` if a command below no longer exists.
+This file tracks CLI `1.34.7` (the `version` above). `npx genex --version` equal or newer is fine - the installed CLI carries its own, newer skill cards. Older means this file has moved on: run `npx genex tools` again to refresh the cards, and re-fetch this file from `https://genex.games/SKILL.md` if a command below no longer exists.
 
 ## Never delete or overwrite anything in this folder
 
